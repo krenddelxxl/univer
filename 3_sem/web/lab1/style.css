@@ -1,0 +1,152 @@
+body {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    
+}
+
+nav {
+    /* background-color: #e8e8e8; */
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    align-items: center;
+    /* justify-content: space-around; */
+}
+
+.nav-item {
+    color: #000;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 18px;
+    margin-left: 50px;
+
+    transition: color 0.3s linear;
+}
+
+.main {
+    color: #a20f2d;
+
+    transition: color 0.3s linear;
+}
+
+.main:hover {
+    color: #000;
+}
+
+.nav-item:hover {
+    color: #a20f2d;
+}
+
+.nav-menu {
+    position: absolute;
+    top: 18px;
+    right: 50px;
+}
+
+.menu-icon {
+    position: absolute;
+    top: 17px;
+    right: 50px;
+}
+
+.bar {
+    width: 25px;
+    height: 3px;
+    background-color: #c41236;
+    margin: 4px 0;
+
+    transition: background-color 0.3s linear;
+}
+
+.menu-icon:hover .bar {
+    background-color: #000;
+}
+
+.me {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 65px;
+}
+
+.me-img {
+    width: 500px;
+    margin-right: 200px; 
+}
+
+.me-fullname {
+    font-size: 70px;
+    text-align: right;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.text-me {
+    font-family: 'Tinos', serif;
+    font-size: 20px;
+    font-style: italic;
+    text-shadow: 0px 0px 0px;
+}
+
+.text-me a {
+    color: #626262;
+    text-decoration: none;
+    /* background-color: #ffe1e1; */
+    background-color: #e6e6e6;
+    
+    /* padding: 10px; */
+    padding: 3px 30px;
+    border-radius: 10px;
+}
+
+.about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 150px;
+}
+
+.h-about {
+    text-align: left;
+    margin-right: 200px; /* Расстояние между элементами */
+    margin-left: 200px;
+    font-size: 60px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.d-about {
+    text-align: justify;
+    margin-right: 200px;
+    font-size: 20px;
+}
+
+.skills {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 150px;
+}
+
+.h-skills {
+    text-align: right;
+    margin-right: 200px;
+    font-size: 60px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.d-skills {
+    text-align: justify;
+    margin-left: 200px;
+    font-size: 20px;
+    margin-right: 200px; /* Расстояние между элементами */
+}
+
+footer {
+    margin-top: 130px;
+    /* background-color: #e8e8e8; */
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
